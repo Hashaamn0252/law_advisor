@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697476804309",
+    "project_id": "com-lawadvisor-lawyer",
+    "storage_bucket": "com-lawadvisor-lawyer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697476804309:android:5d58e32bd061249920fc5c",
+        "android_client_info": {
+          "package_name": "com.lawadvisor.lawyer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp5mtEkEwkZ9ezkbJL0tMzI9kW9MTafos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
