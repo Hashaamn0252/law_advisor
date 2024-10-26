@@ -108,7 +108,7 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
               child: AppBarWidget(
                 richTextSpan: TextSpan(
                   text: _currentIndex == 1
-                      ? 'Law '
+                      ? 'Legal '
                       : _currentIndex == 0
                           ? 'Appointment History'
                           : _currentIndex == 2
@@ -118,7 +118,7 @@ class _BottomNavigationWidgetState extends State<BottomNavigationWidget> {
                   children: <TextSpan>[
                     _currentIndex == 1
                         ? const TextSpan(
-                            text: 'Advisor',
+                            text: 'Care',
                             style: AppTextStyles.appbarTextStyle1,
                           )
                         : const TextSpan(),

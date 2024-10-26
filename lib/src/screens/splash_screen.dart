@@ -95,38 +95,38 @@ class SplashScreenState extends State<SplashScreen>
                     height: animation.value * 100,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage("assets/icons/app-icon.png"),
+                          image: AssetImage("assets/icons/2.png"),
                           fit: BoxFit.contain),
                     ),
                   ),
                 ),
               ),
-              Center(
-                child: RichText(
-                  // Controls how the text should be aligned horizontally
-                  textAlign: TextAlign.center,
-                  // Whether the text should break at soft line breaks
-                  softWrap: true,
-                  text: const TextSpan(
-                    text: 'Law ',
-                    style: TextStyle(
-                        color: AppColors.white,
-                        fontFamily: AppFont.primaryFontFamily,
-                        fontSize: 22,
-                        fontWeight: FontWeight.w400),
-                    children: <TextSpan>[
-                      TextSpan(
-                        text: 'Advisor',
-                        style: TextStyle(
-                            color: AppColors.primaryColor,
-                            fontFamily: AppFont.primaryFontFamily,
-                            fontSize: 22,
-                            fontWeight: FontWeight.w700),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              // Center(
+              //   child: RichText(
+              //     // Controls how the text should be aligned horizontally
+              //     textAlign: TextAlign.center,
+              //     // Whether the text should break at soft line breaks
+              //     softWrap: true,
+              //     text: const TextSpan(
+              //       text: 'Law ',
+              //       style: TextStyle(
+              //           color: AppColors.white,
+              //           fontFamily: AppFont.primaryFontFamily,
+              //           fontSize: 22,
+              //           fontWeight: FontWeight.w400),
+              //       children: <TextSpan>[
+              //         TextSpan(
+              //           text: 'Advisor',
+              //           style: TextStyle(
+              //               color: AppColors.primaryColor,
+              //               fontFamily: AppFont.primaryFontFamily,
+              //               fontSize: 22,
+              //               fontWeight: FontWeight.w700),
+              //         ),
+              //       ],
+              //     ),
+              //   ),
+              // ),
             ],
           ),
         ],

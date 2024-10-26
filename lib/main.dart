@@ -95,7 +95,7 @@ class MainApp extends StatelessWidget {
       builder: () {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Law Advisor - Lawyer',
+          title: 'Legal Care - Lawyer',
           initialBinding: BindingsBuilder(() {
             // Get All Settings
             getMethod(

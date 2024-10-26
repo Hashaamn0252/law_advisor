@@ -47,7 +47,7 @@ class _IntroScreenState extends State<IntroScreen> {
                   // Whether the text should break at soft line breaks
                   softWrap: true,
                   text: const TextSpan(
-                    text: 'Law ',
+                    text: 'Legal ',
                     style: TextStyle(
                         color: AppColors.white,
                         fontFamily: AppFont.primaryFontFamily,
@@ -55,7 +55,7 @@ class _IntroScreenState extends State<IntroScreen> {
                         fontWeight: FontWeight.w400),
                     children: <TextSpan>[
                       TextSpan(
-                        text: 'Advisor',
+                        text: 'Care',
                         style: TextStyle(
                             color: AppColors.primaryColor,
                             fontFamily: AppFont.primaryFontFamily,

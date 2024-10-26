@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            "Welcome to Law Advisor",
+                            "Welcome to Legal Care",
                             style: AppTextStyles.bodyTextStyle6,
                           ),
                           SizedBox(height: 6.h),

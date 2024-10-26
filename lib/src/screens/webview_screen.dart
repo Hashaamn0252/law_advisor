@@ -220,7 +220,7 @@ Page resource error:
           // print("${_controller.currentUrl().toString()} CURRENT URL");
 
           richTextSpan: const TextSpan(
-            text: 'Law Advisor Pricing Plan',
+            text: 'Legal Care Pricing Plan',
             style: AppTextStyles.appbarTextStyle2,
             children: <TextSpan>[],
             //  This drop down menu demonstrates that Flutter widgets can be shown over the web view.
